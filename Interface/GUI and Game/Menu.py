@@ -10,7 +10,7 @@ def Menu():
     #Create Window/Display
     width, height = 1280, 720
     window = pygame.display.set_mode((width, height))
-    pygame.display.set_caption("Squid Game")
+    pygame.display.set_caption("Balloon Pop")
 
     #Initialize Clock for FPS
     fps = 30
