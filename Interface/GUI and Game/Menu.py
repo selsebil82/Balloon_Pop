@@ -44,7 +44,7 @@ def Menu():
         window.blit(imgPop, (pop_x, 0), special_flags=pygame.BLEND_RGB_ADD)
 
         font = pygame.font.Font('../../Resources/Marcellus-Regular.ttf', 20)
-        textStart = font.render(f'Developped by Trabelsi selsebil and Abdelwahed maissa', True, (255,255,255))
+        textStart = font.render(f'Developped by Trabelsi selsebil', True, (255,255,255))
 
         window.blit(textStart,(400 , 680))
 
